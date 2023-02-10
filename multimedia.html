@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rediseño </title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS PROPIO -->
+    <link rel="stylesheet" href="css/multimedia.css">
+
+    <!-- CSS QUE AFECTA AL HEADER Y A LA NAVBAR -->
+    <link rel="stylesheet" href="css/headerYNavbar.css">
+
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+
+        <!-- HEADER -->
+        <div id="headerTitulo" class="bg-info">
+    
+            <div class="row">
+    
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4   d-block mx-auto">
+                    <img id="logo" class="d-block mx-auto" src="img/Home/logo bueno.png">
+                </div>
+    
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4  justify-content-center">
+                    <h1> Vermilion </h1>
+                </div>
+    
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    
+        <!-- PESTAÑAS PARA VIAJAR ENTRE PÁGINAS -->
+        <ul id="grupoPestanas" class="nav justify-content-center bg-dark">
+          <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Página principal</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="multimedia.html">Rediseño</a>
+          </li>
+      </ul>
+    
+    
+        <!-- HEADER DEBAJO CON EL NOMBRE DE LA PÁGINA ACTUAL-->
+        <div id="headerNombrePagina" class="bg-danger">
+
+            <h1> REDISEÑO </h1>
+            <p>La barbería y peluquería Vermilion está llevando 
+                a cabo un lavado de cara (ja), con cambios en 
+                el logotipo y algo más.
+            </p>
+
+        </div>
+    
+    
+    <!---------- FILA DEL LOGOTIPO ---------->
+
+        <!-- HEADER DEL LOGOTIPO -->
+        <div class="container-fluid  my-4">
+
+          <div class="row">
+
+            <div class="bg-danger col-sm-9 col-md-9 col-lg-9 col-xl-9  p-3">
+              <h3 class="headerTarjetas">NUEVO LOGOTIPO</h3>
+            </div>
+
+          </div>
+
+
+        <!-- FILA DEL LOGOTIPO -->
+        <div class="row  my-4  align-items-center">
+
+            <div class="centrarTexto col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <img id="logoAbajo" src="img/Home/logo bueno.png">
+            </div>
+
+            <div class="centrarTexto  col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                <h2> Este es el nuevo logotipo, diseñado por uno de nuestros peluqueros, 
+                     que también tiene un Master en Diseño Gráfico.</h2>
+            </div>
+
+        </div>
+
+
+    <!---------- FILA DEL AUDIO ---------->
+
+            <!-- HEADER DE LA FILA DEL AUDIO -->
+            <div class="row">
+
+              <div class="bg-danger col-sm-9 col-md-9 col-lg-9 col-xl-9  p-3">
+                <h3 class="headerTarjetas">NUEVA MÚSICA</h3>
+              </div>
+
+            </div>
+
+
+            <!-- AUDIO Y DESCRIPCION RELLENO -->
+            <div class="row  my-5  align-items-center">
+
+                <div class="centrarTexto  col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                    <h2> El grupo Mike Hawk ha compuesto música, creada como 
+                         marca de identidad. Se usará en anuncios de radio, 
+                         televisión e Internet. 
+                    </h2>
+                </div>
+
+                <div class="centrarTexto  col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    
+                    <audio id="sound1" src="audio/Sneaky Snitch (Kevin MacLeod) - 10 primeros segundos.mp3" preload="auto"> </audio>
+                    <button id="botonAudio" class="p-2 bg-info border border-success rounded-pill" onclick="document.getElementById('sound1').play();"> Pulsa para que suene la música</button>
+
+                </div>
+
+            </div>
+
+
+            <!-- VIDEO Y DESCRIPCION RELLENO -->
+            <div class="row">
+
+                <div class="bg-danger col-sm-9 col-md-9 col-lg-9 col-xl-9  p-3">
+                  <h3 class="headerTarjetas">ANUNCIO</h3>
+                </div>
+    
+            </div>
+
+
+            <div class="row  my-5  align-items-center">
+
+                <div class="centrarTexto  col-sm-12 col-md-6 col-lg-6 col-xl-6
+                            embed-responsive embed-responsive-16by9">
+                    
+                        <iframe src="https://youtu.be/xjybNWQne2I" width="560" 
+                        height="315" frameborder="0" allowfullscreen> </iframe>
+                </div>
+                
+                <div class="centrarTexto  col-sm-12 col-md-6 col-lg-6 col-xl-6 ">
+                    <h2> Hemos hecho un anuncio. Vedlo un rato y darle 
+                         a Like y subscríbanse para más y mejor. 
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER -->
+            <footer>
+
+                <div class="container-fluid">
+            
+                    <div id="footer" class="bg-info">
+                        <h3> Vermilion Barbershop &#169 2023 </h2>
+                    </div>
+            
+                </div>
+
+            </footer>
+
+</body>
+
+</html>

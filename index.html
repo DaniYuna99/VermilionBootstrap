@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Página principal </title>
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS PROPIO (si hay, claro)-->
+
+    <!-- CSS QUE AFECTA AL HEADER Y A LA NAVBAR -->
+    <link rel="stylesheet" href="css/headerYNavbar.css">
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- HEADER -->
+        <div id="headerTitulo" class="bg-info">
+
+            <div class="row">
+
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4   d-block mx-auto">
+                    <img id="logo" class="d-block mx-auto" src="img/Home/logo bueno.png">
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4  justify-content-center">
+                    <h1> Vermilion </h1>
+                </div>
+
+                <!-- AQUÍ HABÍA UN DESPLEGABLE, PERO LO QUITÉ PORQUE NO FUNCIONA -->
+                <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 ">
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PESTAÑAS PARA VIAJAR ENTRE PÁGINAS -->
+        <ul id="grupoPestanas" class="nav justify-content-center bg-dark">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Página principal</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="multimedia.html">Rediseño</a>
+            </li>
+        </ul>
+
+
+        <!-- HEADER DEBAJO CON EL NOMBRE DE LA PÁGINA ACTUAL-->
+        <div id="headerNombrePagina" class="bg-danger">
+            <h1> PÁGINA PRINCIPAL </h1>
+        </div>
+
+    </div> <!-- Cierre container-fluid -->
+
+
+    <div id="main" class="container my-4">
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6  text-center align-self-center">
+                <h1>Bienvenido a la mejor peluqueria de Sevilla</h1>
+                <p class="my-4">Gracias a nosotros, podrás lucir como siempre has querido.</p>
+                <h3>¡Solo pídelo!</h3>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6  d-block mx-auto">
+                <img class="img-fluid" src="img/Home/vicen.jpg">
+            </div>
+
+        </div>
+
+
+        <br> <br>
+
+        <div class="row">
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12  text-center">
+                <h2>Sobre nosotros</h2>
+                <p>Vermillion Barbershop presta servicios de peluquería y 
+                    barbería desde 1990, donde nuestro increíble personal 
+                    hace realidad tus deseos estilísticos</p>
+            </div>
+
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12  d-grid gap-2">
+                <button class="btn btn-danger" type="button">Saber más...</button>
+            </div>
+
+        </div>
+
+
+    </div> <!-- Cierre container -->
+
+    
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container-fluid">
+    
+            <div id="footer" class="bg-info">
+                <h3> Vermilion Barbershop &#169 2023 </h2>
+            </div>
+    
+        </div>
+
+    </footer>
+
+    
+</body>
+
+</html>
